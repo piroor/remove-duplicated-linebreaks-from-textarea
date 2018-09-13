@@ -1,0 +1,6 @@
+{
+  "extensionName": { "message": "Remove Duplicated Linebreaks from text area" },
+  "extensionDescription": { "message": "Removes duplicated linebreaks from text area." },
+
+  "contextMenu.label": { "message": "Remove Duplicated Linebreaks" }
+}

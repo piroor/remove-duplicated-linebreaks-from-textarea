@@ -1,0 +1,6 @@
+{
+  "extensionName": { "message": "テキストエリアから改行の重複を削除" },
+  "extensionDescription": { "message": "テキスト入力欄の中にある重複した改行を削除します。" },
+
+  "contextMenu.label": { "message": "改行の重複を削除" }
+}
