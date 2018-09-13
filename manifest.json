@@ -10,7 +10,7 @@
   ],
   "background": {
     "scripts": [
-      "background.js"
+      "background/background.js"
     ]
   },
   "default_locale": "en",
