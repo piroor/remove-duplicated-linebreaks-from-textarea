@@ -54,7 +54,7 @@ function removeDuplicatedLinebreaks(targetText = '') {
       const node = nodes.iterateNext();
       if (!node)
         break;
-      node.nodeValue = node.nodeValue.replace(LINEBREAKS_MATCHER, '\sn');
+      node.nodeValue = node.nodeValue.replace(LINEBREAKS_MATCHER, '\n');
     }
   }
 }
