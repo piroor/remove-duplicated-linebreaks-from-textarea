@@ -17,5 +17,5 @@ format: install_dependency
 
 xpi:
 	rm -f ./*.xpi
-	zip -r -0 remove-duplicated-linebreaks-from-textarea.xpi manifest.json _locales background -x '*/.*' >/dev/null 2>/dev/null
+	zip -r -9 remove-duplicated-linebreaks-from-textarea.xpi manifest.json _locales background -x '*/.*' >/dev/null 2>/dev/null
 
