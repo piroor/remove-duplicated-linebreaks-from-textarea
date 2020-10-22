@@ -64,7 +64,7 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
   browser.tabs.executeScript(tab.id, {
     frameId: info.frameId,
     code: `
-      (${removeDuplicatedLinebreaks.toSource()})(${JSON.stringify(targetText)});
+      (${removeDuplicatedLinebreaks.toString()})(${JSON.stringify(targetText)});
     `
   });
 });
